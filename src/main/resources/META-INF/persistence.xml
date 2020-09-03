@@ -6,8 +6,8 @@
         <properties>
             <property name="javax.persistence.schema-generation.database.action" value="none"/>
             <property name="javax.persistence.schema-generation.scripts.action" value="drop-and-create"/>
-            <property name="javax.persistence.schema-generation.scripts.create-target" value="/mnt/data/workspaces/tss-2019-2020-Materials/create-projectwork.sql"/>
-            <property name="javax.persistence.schema-generation.scripts.drop-target" value="/mnt/data/workspaces/tss-2019-2020-Materials/drop-projectwork.sql"/>
+            <property name="javax.persistence.schema-generation.scripts.create-target" value="/tmp/create-projectwork.sql"/>
+            <property name="javax.persistence.schema-generation.scripts.drop-target" value="/tmp/drop-projectwork.sql"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDB103Dialect"/>
         </properties>
     </persistence-unit>
